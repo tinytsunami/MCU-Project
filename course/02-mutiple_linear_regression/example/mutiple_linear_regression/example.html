@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <style>
+            *{
+                font-family: "Microsoft JhengHei", sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>主控台</h3>
+        <pre style="width: 99.5%; height: 360px; border: solid 1px #333; overflow-y: scroll;"></pre>
+        <h3>載入資料</h3>
+        <input type="file" />
+        <h3>訓練與測試操作</h3>
+        <button>開始訓練</button>
+        <button>開始測試</button>
+        <h3>預測</h3>
+        <table>
+            <tr>
+                <td>
+                    類型
+                </td>
+                <td>
+                    <select>
+                        <option value="1">
+                            電梯大樓
+                        </option>
+                        <option value="2">
+                            公寓
+                        </option>
+                        <option value="3">
+                            別墅
+                        </option>
+                        <option value="4">
+                            透天厝
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    年份
+                </td>
+                <td>
+                    <input type="number" value="0"/> 年
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    樓層
+                </td>
+                <td>
+                    <input type="number" value="0"/> 樓
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    總坪數
+                </td>
+                <td>
+                    <input type="number" value="0"/> 坪
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    房間數
+                </td>
+                <td>
+                    <input type="number" value="0"/> 間
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    價位
+                </td>
+                <td>
+                    <input type="number" value="0" readonly="readonly"> 萬
+                </td>
+            </tr>
+        <br/>
+        <br/>
+        <script src="./main.js"></script>
+    </body>
+</html>
