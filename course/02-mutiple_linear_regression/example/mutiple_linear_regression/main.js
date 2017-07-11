@@ -65,7 +65,7 @@
       });
       log.innerHTML += `已完成編碼：\r\n`;
       table.forEach(function(name, index) {
-        log.innerHTML += `${name}=>${index}\r\n`;
+        log.innerHTML += `${name}=>${1 + index}\r\n`;
       });
       //find data max and min
       statis.max = Array.from({length: n}, function(x) {return 0;});
@@ -135,9 +135,9 @@
   };
 
   //===========================================
-  // SLR part
+  // Muiltple linear regression part
   //-------------------------------------------
-  // simple linear regression(SLR),
+  // Muiltple linear regression,
   // this is main for the example.
   //===========================================
   let lock = true; //train controller
