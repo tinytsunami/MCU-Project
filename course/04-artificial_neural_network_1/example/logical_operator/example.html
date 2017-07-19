@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <style>
+            *{
+                font-family: "Microsoft JhengHei", sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="float: left; max-width: 50%;">
+            <h3>圖像</h3>
+            <canvas style="border: solid 1px #333;"></canvas>
+        </div>
+        <div style="float: left; width: 50%; margin-left: 20px;">
+            <h3>主控台</h3>
+            <pre style="width: 100%; height: 400px; border: solid 1px #333; overflow-y: scroll;"></pre>
+        </div>
+        <div style="float: left; width: 50%; margin-left: 20px;">
+            <h3>訓練邏輯</h3>
+            <form>
+                <input name="logic" type="radio" value="not"> NOT <br/>
+                <input name="logic" type="radio" value="or"> OR <br/>
+                <input name="logic" type="radio" value="and"> AND <br/>
+                <input name="logic" type="radio" value="xor"> XOR
+            </form>
+        </div>
+        <br/>
+        <br/>
+        <script src="./main.js"></script>
+    </body>
+</html>
