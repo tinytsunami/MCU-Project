@@ -1,0 +1,11 @@
+{
+  "name": "minst",
+  "main": "example.html",
+  "version": "1.0.0",
+  "window": {
+      "title": "MINST FNN Train",
+      "toolbar": false,
+      "width": 820,
+      "height": 560
+  }
+}

@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="utf8"/>
+        <style>
+            *{
+                font-family: "Microsoft JhengHei", sans-serif;
+            }
+        </style>
+        <script src="./lib/Matrix.js"></script>
+        <script src="./lib/NeuralNetwork.js"></script>
+    </head>
+    <body>
+        <h3>原始檔案</h3>
+        <div id="data_loader">
+            原始資料：<input type="file" />
+            <span></span>
+        </div>
+        <div id="label_loader">
+            標籤資料：<input type="file" />
+            <span></span>
+        </div>
+        <br />
+        <hr />
+        <h3>測試檔案</h3>
+        <div id="test_data_loader">
+            原始資料：<input type="file" />
+            <span></span>
+        </div>
+        <div id="test_label_loader">
+            標籤資料：<input type="file" />
+            <span></span>
+        </div>
+        <br />
+        <hr />
+        <br />
+        <div id="loader_controller">
+            <button>確認資料</button> 
+            <button disabled>開始訓練</button> 
+            <button disabled>測試網路</button>
+        </div>
+        <br />
+        <hr />
+        <h3>匯入權重</h3>
+        <div id="weight_loader">
+            權重檔案（.nnw）：<input type="file" />
+            <span></span>
+        </div>
+        <hr />
+        <h3>成本檢查</h3>
+        <pre style="width: 600px; height: 300px; border: solid 1px #333; overflow-y: scroll;"></pre>
+        <script src="./main.js"></script>
+    </body>
+</html>

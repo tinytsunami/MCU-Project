@@ -1,4 +1,0 @@
-﻿  MCU-Project.cpp
-d:\mcu-project\main\mcu-project\MainForm.h(142): warning C4244: '引數': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
-d:\mcu-project\main\mcu-project\MainForm.h(143): warning C4244: '引數': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
-  MCU-Project.vcxproj -> D:\MCU-Project\main\MCU-Project\Debug\MCU-Project.exe
